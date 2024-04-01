@@ -1,6 +1,5 @@
-#import package.shapes as shapes
-from package.shapes import *
-
+from individualModules.triangle import *
+from individualModules.rectangle import *
 
 def point_request(txt="Enter point, componets separed by ',': "):
     return Point(*[float(x) for x in input(txt).split(",")])
